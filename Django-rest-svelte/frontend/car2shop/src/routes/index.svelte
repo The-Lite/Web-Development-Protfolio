@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="flex flex-row">
+    <div class="basis-1/4">01</div>
+    <div class="basis-1/4">02</div>
+    <div class="basis-1/2">03</div>
+  </div>
+<style>
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+</style>

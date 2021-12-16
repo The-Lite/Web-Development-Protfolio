@@ -1,64 +1,38 @@
-<div class="nav flex flex-row" style="background-color: rebeccapurple;">
-    <div class="basis-1/2 logo"> 
-        <img src="" alt="logo"> </div>
-    <div class="left-nav flex flex-row basis-1/2 flex-nowrap items-center justify-end">
-       
-    <a href="" class="element basis-1/5">Home</a>
-    <a href="" class="element basis-1/5">Home</a>
-    <a href="" class="element basis-1/5">Home</a>
-    <a href="" class="basis-1/5 btn-register flex flex-row items-center justify-center	">Register Now</a>
-    
-    </div>
+<script>
+
+import Navbar from "../components/navbar.svelte";
+
+</script>
+
+<Navbar/>
+<div class="section1">
+<h2 class="Title-section1">Ride your dream car
+    at a lowest price*</h2>
+
 
 </div>
 
-
-
-
 <style>
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-.nav
+.section1
 {
-    height: 88px;
-    background: #0C0C0C;
+    background-image: url('./static/img/Car.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 787px;
+    margin-top: -88px;
+    
 }
-.element
+.Title-section1
 {
     font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    color: white;;
-}
-.logo-text
-{
-    font-family: Futura PT;
     font-style: normal;
     font-weight: bold;
-    font-size: 32px;
-    line-height: 41px;
-    letter-spacing: 0.03em;
+    font-size: 72px;
+    line-height: 108px;
     color: #FFFFFF;
+    padding-top: 136px;
+    width: 850px;
+    padding-left: 3%;
 }
-.btn-register
-{
-    width: 165px;
-    height: 48px;
-    left: 931px;
-    top: 20px;
-    background: #F8CD57;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 27px;
-    color: #000000;
-    margin-right: 12%;
-  
-     
-}
+
 </style>
